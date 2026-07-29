@@ -1,0 +1,4823 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "11f141ce-ffd8-41c5-ba3c-d9b662d81ab6")
+	(paper "A4")
+	(title_block
+		(title "Keypad 4x4")
+		(date "2026-07-29")
+		(rev "0.1")
+		(company "Waqar Productions")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x08"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x08_1_1"
+				(rectangle
+					(start -1.27 8.89)
+					(end 1.27 -11.43)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 7.747)
+					(end 0 7.493)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -10.033)
+					(end 0 -10.287)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "KSC1131J:KSC1131J_LFS"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "S"
+				(at 12.7 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "KSC1131J_LFS"
+				(at 12.7 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "KSC1131JLFS"
+				(at 12.7 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+				(at 12.7 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "4.1"
+				(at 12.7 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Farnell Part Number" ""
+				(at 12.7 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Farnell Price/Stock" ""
+				(at 12.7 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "LITTELFUSE"
+				(at 12.7 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "KSC1131J LFS"
+				(at 12.7 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "KSC1131J_LFS_1_1"
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -5.08) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 5.588 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.096 -2.286) (xy 8.382 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 9.652 -2.54)
+					(radius 0.508)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 12.7 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -5.08) (xy 12.7 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 15.24 0 180)
+					(length 2.54)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 15.24 -5.08 180)
+					(length 2.54)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 2.54)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 2.54)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "1-4 Columns\n5-8 Rows"
+		(exclude_from_sim no)
+		(at 128.524 51.816 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "39dc582c-7cc7-4fb7-8f09-b434ef7e1b90")
+	)
+	(text "Keypad Connection Layout"
+		(exclude_from_sim no)
+		(at 63.5 142.748 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bff8717e-9d24-4c24-8f9a-40a09735b3a2")
+	)
+	(text "M3.2"
+		(exclude_from_sim no)
+		(at 215.392 90.678 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f49f96fe-b4f1-4e4e-925c-5faa4ef93216")
+	)
+	(junction
+		(at 104.14 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0f135562-a648-4ccb-9ffa-79252990fa0a")
+	)
+	(junction
+		(at 154.94 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17d64c8c-49f6-44d2-90b0-403b89113416")
+	)
+	(junction
+		(at 110.49 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1861bb5e-8c89-4317-b200-ef10e79a59b8")
+	)
+	(junction
+		(at 128.27 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "20bf31dd-83ce-4eda-ac6e-4020f8d4736f")
+	)
+	(junction
+		(at 153.67 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e9465d4-b714-4d9d-8bbd-fdcb078a74e4")
+	)
+	(junction
+		(at 129.54 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e5cc0d8-28d0-4a8c-a2da-e475ddad3d8e")
+	)
+	(junction
+		(at 129.54 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f8f5a8a-1414-4fc1-ab63-d79bfc898885")
+	)
+	(junction
+		(at 86.36 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5294ca7c-e512-4511-a845-4d488ef48b88")
+	)
+	(junction
+		(at 60.96 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5f76af0a-6dab-45a3-b3de-4174d9652186")
+	)
+	(junction
+		(at 104.14 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6ab624f1-7888-40d1-904b-8ec47bfd57af")
+	)
+	(junction
+		(at 135.89 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80e5bb74-7b9d-45d1-b590-668c961d6ec4")
+	)
+	(junction
+		(at 110.49 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "839720b0-35b1-4217-85f7-bcabbda967de")
+	)
+	(junction
+		(at 86.36 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86be2761-1976-4182-b1f1-28bcf34ec4e9")
+	)
+	(junction
+		(at 86.36 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98e09a42-15b9-4155-b52a-c46376d08700")
+	)
+	(junction
+		(at 60.96 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a561a3b-c4f9-4c56-86fc-0ae39d585b78")
+	)
+	(junction
+		(at 135.89 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9a87d16c-2e79-4652-aa7a-4efb9cf9607c")
+	)
+	(junction
+		(at 153.67 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e15a871-8bea-405c-8d60-569fea98fb4e")
+	)
+	(junction
+		(at 135.89 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8df0879-2f91-4513-aa6c-c20685348983")
+	)
+	(junction
+		(at 105.41 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bb5e0838-d009-48e6-afc0-3ff27a0c9d3a")
+	)
+	(junction
+		(at 110.49 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca668e91-147c-4601-a42b-ccc9de972e52")
+	)
+	(junction
+		(at 128.27 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2fbdc2d-060b-4a96-a078-a27f09f8d10d")
+	)
+	(junction
+		(at 105.41 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6e1c6ea-9af6-4204-a0fc-fd487affa7cb")
+	)
+	(junction
+		(at 154.94 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dde9e9df-2845-478b-9ed2-fe6b1e3bcdf1")
+	)
+	(junction
+		(at 60.96 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "faef60a1-a807-4908-9b1e-af8cf1902b57")
+	)
+	(no_connect
+		(at 129.54 72.39)
+		(uuid "103dde49-2d32-4ee4-b513-ff90f6dc6ce9")
+	)
+	(no_connect
+		(at 63.5 129.54)
+		(uuid "11684578-167c-4558-9734-e21593cebb53")
+	)
+	(no_connect
+		(at 90.17 95.25)
+		(uuid "1290a4d1-86fa-427e-9771-42604db9b3c9")
+	)
+	(no_connect
+		(at 105.41 72.39)
+		(uuid "1344ed79-416f-4ad6-bce2-44ae2853a45b")
+	)
+	(no_connect
+		(at 64.77 95.25)
+		(uuid "1c8dea8b-e347-4169-b448-0d0438a10be7")
+	)
+	(no_connect
+		(at 88.9 111.76)
+		(uuid "2d1b8ba2-9d01-4c17-9d68-0575c1142e01")
+	)
+	(no_connect
+		(at 78.74 124.46)
+		(uuid "3233aec9-568c-47c0-a286-43dee8c0dd57")
+	)
+	(no_connect
+		(at 90.17 77.47)
+		(uuid "3447a162-f89b-48f1-9f26-7f495e8c05c9")
+	)
+	(no_connect
+		(at 114.3 77.47)
+		(uuid "347b15d8-8f26-4df2-84df-d369cc827904")
+	)
+	(no_connect
+		(at 104.14 106.68)
+		(uuid "36aeaa6b-9187-4e3a-85ac-006f3d0e50eb")
+	)
+	(no_connect
+		(at 128.27 106.68)
+		(uuid "3b00170d-6fd4-47af-8d31-6dc0141f7507")
+	)
+	(no_connect
+		(at 139.7 95.25)
+		(uuid "3ba6c2a2-23b4-4f5f-9a29-096200273abf")
+	)
+	(no_connect
+		(at 105.41 90.17)
+		(uuid "4082cb74-61da-484d-b718-3a06334fc6b8")
+	)
+	(no_connect
+		(at 154.94 72.39)
+		(uuid "414f8e15-942c-40f2-8356-05d29edda402")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "4b2cb5ef-c29f-4f9e-86c8-caf8526eebf3")
+	)
+	(no_connect
+		(at 114.3 95.25)
+		(uuid "4cc03fb4-8655-4b69-9725-c61ad9b94357")
+	)
+	(no_connect
+		(at 138.43 129.54)
+		(uuid "5c375021-8767-4885-82c6-675ef4aac912")
+	)
+	(no_connect
+		(at 153.67 124.46)
+		(uuid "6eec114d-1ece-4370-9ea0-f45507710b43")
+	)
+	(no_connect
+		(at 64.77 77.47)
+		(uuid "7726f563-c0aa-4658-8aa8-705d06527ca8")
+	)
+	(no_connect
+		(at 88.9 129.54)
+		(uuid "9109868f-f7f1-4a75-9bc9-cf78c4943c97")
+	)
+	(no_connect
+		(at 139.7 77.47)
+		(uuid "a63e590e-3df8-4e9c-a797-82e2df829380")
+	)
+	(no_connect
+		(at 129.54 90.17)
+		(uuid "aa7344dc-111d-43b9-bb41-1cea2c371346")
+	)
+	(no_connect
+		(at 113.03 129.54)
+		(uuid "aad181e5-0ce4-4855-94c7-24d563b997ca")
+	)
+	(no_connect
+		(at 63.5 111.76)
+		(uuid "b76b07c8-a367-430b-86d3-938ea0783399")
+	)
+	(no_connect
+		(at 138.43 111.76)
+		(uuid "c9181117-42fe-40bc-b7f6-a1e86e1a9090")
+	)
+	(no_connect
+		(at 80.01 72.39)
+		(uuid "d4525bf7-3d70-4799-8a18-2013126c1af3")
+	)
+	(no_connect
+		(at 154.94 90.17)
+		(uuid "d519b43c-01e0-4672-85ca-c72eb42d0183")
+	)
+	(no_connect
+		(at 104.14 124.46)
+		(uuid "d8a758bb-a8af-45ab-95eb-950453f76dc9")
+	)
+	(no_connect
+		(at 128.27 124.46)
+		(uuid "d9959853-e7a7-4aab-9a5e-d84141a52cfb")
+	)
+	(no_connect
+		(at 153.67 106.68)
+		(uuid "ddb0cdd9-0e86-41c9-81b8-e8f730621452")
+	)
+	(no_connect
+		(at 80.01 90.17)
+		(uuid "e6fce77e-4afb-4dc9-94b5-1af43680d4f3")
+	)
+	(no_connect
+		(at 78.74 106.68)
+		(uuid "f0c42769-d7ab-451c-a9a7-9d5de8e96c82")
+	)
+	(wire
+		(pts
+			(xy 102.87 57.15) (xy 102.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0286c156-01f1-4dee-89c1-f8068076c1a9")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 139.7 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0473acfc-9a1e-40bc-951a-e5510af9f649")
+	)
+	(wire
+		(pts
+			(xy 168.91 81.28) (xy 168.91 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f6f9d67-f26f-488a-a35c-f59639b068f0")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "117f6b28-47b9-4cef-a320-1f4a0eefaaa8")
+	)
+	(wire
+		(pts
+			(xy 78.74 111.76) (xy 78.74 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172e7c17-4b49-42ce-9e31-e38df051cfe9")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.39) (xy 60.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "189769a5-3e3d-44eb-87d6-08c4b156cd97")
+	)
+	(wire
+		(pts
+			(xy 129.54 95.25) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194470cf-ee48-44cd-a861-e416513424b0")
+	)
+	(polyline
+		(pts
+			(xy 213.36 88.9) (xy 248.92 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1963d14f-23db-4164-80e6-bd4088f7e88f")
+	)
+	(polyline
+		(pts
+			(xy 50.8 45.72) (xy 52.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a43c40d-2061-4022-afa2-5de45a9e389f")
+	)
+	(wire
+		(pts
+			(xy 118.11 57.15) (xy 118.11 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b69677c-302d-4860-a9e2-c1e620bc08d2")
+	)
+	(wire
+		(pts
+			(xy 110.49 57.15) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c830ae3-18ca-4c97-b9c0-c3517a363543")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1dc33b94-5f57-4995-8ac3-74560d20f6a6")
+	)
+	(wire
+		(pts
+			(xy 171.45 59.69) (xy 115.57 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1deb5aa8-bf9e-494d-8fca-1f68e39a3d19")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e4931b5-6726-4ffb-a9db-0cbeb6efcce3")
+	)
+	(wire
+		(pts
+			(xy 163.83 82.55) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2048e599-188b-4126-b96c-831b3cd6d9c5")
+	)
+	(wire
+		(pts
+			(xy 104.14 111.76) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "246d84ab-58cf-4a40-9fb2-f6c8de36546c")
+	)
+	(wire
+		(pts
+			(xy 90.17 72.39) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2564525c-2ea8-4709-9a28-f521b63da5ac")
+	)
+	(wire
+		(pts
+			(xy 110.49 72.39) (xy 110.49 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2650e14a-7f4a-4044-9800-816b4f6495c3")
+	)
+	(wire
+		(pts
+			(xy 60.96 90.17) (xy 60.96 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26770129-e906-4e42-a25e-f6f3178c9305")
+	)
+	(wire
+		(pts
+			(xy 86.36 124.46) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26f0ebfc-0fd4-42d8-8c4c-aadbbb0e57ae")
+	)
+	(wire
+		(pts
+			(xy 165.1 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e41da63-3656-4160-9e68-8da3457bb01a")
+	)
+	(wire
+		(pts
+			(xy 110.49 66.04) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34935986-dea2-47c2-b43a-9f90fa20e8ec")
+	)
+	(wire
+		(pts
+			(xy 113.03 60.96) (xy 170.18 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359291bf-f989-43eb-a78d-14d37249716f")
+	)
+	(wire
+		(pts
+			(xy 171.45 85.09) (xy 171.45 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "378d52bb-1284-47dc-8385-5f64732b4c59")
+	)
+	(polyline
+		(pts
+			(xy 248.92 88.9) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a537c62-230d-4e54-929e-db472ca8c87b")
+	)
+	(polyline
+		(pts
+			(xy 213.36 49.53) (xy 213.36 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f3cc799-b87a-4f8a-8c03-a820a123d719")
+	)
+	(wire
+		(pts
+			(xy 135.89 72.39) (xy 135.89 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41e8e3a0-1d8e-456c-95cf-5e563dfed519")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44dc1bb2-15e3-4bec-8599-6249971310e1")
+	)
+	(wire
+		(pts
+			(xy 60.96 124.46) (xy 63.5 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48c0c3e9-bcc6-4602-ae2e-c55f7e0b93a2")
+	)
+	(polyline
+		(pts
+			(xy 52.07 45.72) (xy 181.61 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c39c70d-faa3-47ba-a55d-7e94646a07bb")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 165.1 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f8e21c1-91dd-4e3a-9951-ead1fb21f07a")
+	)
+	(wire
+		(pts
+			(xy 135.89 124.46) (xy 138.43 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "502cc313-ffb5-433f-9213-575c04c2c238")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 88.9 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51921079-be34-41bc-8202-76af248e3be8")
+	)
+	(wire
+		(pts
+			(xy 60.96 90.17) (xy 64.77 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5311ba0f-86fe-4f06-a016-f4c969a00ff4")
+	)
+	(wire
+		(pts
+			(xy 128.27 133.35) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5494d8df-0a45-4ac3-b2db-faabdb820c63")
+	)
+	(wire
+		(pts
+			(xy 128.27 111.76) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ee5547-b62a-4cd6-b330-c34cfe36a254")
+	)
+	(wire
+		(pts
+			(xy 86.36 72.39) (xy 86.36 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e5e898-b9e2-4972-b20b-f50eed7670d9")
+	)
+	(wire
+		(pts
+			(xy 80.01 95.25) (xy 80.01 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a21569f-0ade-413c-925b-366a87cfe1c8")
+	)
+	(wire
+		(pts
+			(xy 105.41 57.15) (xy 105.41 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bfe4948-ee34-4c46-8873-6589214a76d3")
+	)
+	(wire
+		(pts
+			(xy 78.74 129.54) (xy 78.74 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d2addae-1aa8-466f-9453-bd67334d4b21")
+	)
+	(wire
+		(pts
+			(xy 78.74 115.57) (xy 104.14 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5db77ff6-1755-476a-a96c-1de839e950c4")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.39) (xy 60.96 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ebda6cb-6881-4cd3-832f-5edc0cfffa52")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 102.87 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "679e0507-34a7-43d8-9145-0c5fa233a626")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "684bf151-a2d0-49d3-8500-37544378cd11")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d3936c3-72e7-4cff-ae69-e965f34bd1e0")
+	)
+	(wire
+		(pts
+			(xy 60.96 72.39) (xy 64.77 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6fc138e3-77f1-4c5e-b95a-197994c95848")
+	)
+	(wire
+		(pts
+			(xy 154.94 99.06) (xy 163.83 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a37c4d-4bc0-4e34-8116-69406c128540")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 153.67 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73b7f5d3-7c29-49dc-9180-67bce26cb627")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 105.41 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76089c78-a1e2-431d-a16f-e53518667fd3")
+	)
+	(wire
+		(pts
+			(xy 86.36 63.5) (xy 86.36 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772e5ffa-303d-4e11-b65d-d0e446e1c696")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 80.01 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78cfa03f-830c-4da8-84b2-a4fa93830ec7")
+	)
+	(polyline
+		(pts
+			(xy 50.8 140.97) (xy 50.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abeb35f-63aa-4b73-b20c-c59e05f2c9e2")
+	)
+	(wire
+		(pts
+			(xy 134.62 72.39) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c241402-99e8-467e-ad16-b6007ed7c161")
+	)
+	(wire
+		(pts
+			(xy 168.91 62.23) (xy 110.49 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d729447-696a-4176-8753-0c9983f833fe")
+	)
+	(wire
+		(pts
+			(xy 86.36 106.68) (xy 86.36 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e24f711-aa1b-4e4d-9629-8a8dec67bb28")
+	)
+	(polyline
+		(pts
+			(xy 181.61 45.72) (xy 181.61 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88a05e4d-c371-4da2-a022-f03b05596814")
+	)
+	(wire
+		(pts
+			(xy 154.94 95.25) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89483045-5e7e-4ab1-b185-02fc3e1bfe90")
+	)
+	(wire
+		(pts
+			(xy 153.67 133.35) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8be55d18-685b-4463-84db-b78caf00ee5f")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 60.96 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cf83ed8-2ee1-4a97-a4ec-07b9eabd7fc1")
+	)
+	(wire
+		(pts
+			(xy 107.95 66.04) (xy 110.49 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9904a30d-1a21-40b5-bb2c-0006c69a0ce1")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 166.37 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bc4330b-1026-4875-8069-aef2a0815ffb")
+	)
+	(wire
+		(pts
+			(xy 154.94 77.47) (xy 154.94 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e667b22-ca5d-4c8b-babf-9b9698ba98f2")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 90.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a557b2e1-f00e-449e-b3b4-69dfcf8bb7bd")
+	)
+	(wire
+		(pts
+			(xy 104.14 129.54) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9af8561-1602-4226-89b9-cfbd70938fd6")
+	)
+	(wire
+		(pts
+			(xy 166.37 87.63) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8bd164-5289-4dc9-bb83-6c712ecd1620")
+	)
+	(wire
+		(pts
+			(xy 60.96 106.68) (xy 63.5 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdf3a48-c60b-42d0-8d3c-6707ef5a4704")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 172.72 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "acdf696e-7056-456b-a167-75a888e80fe1")
+	)
+	(wire
+		(pts
+			(xy 105.41 81.28) (xy 105.41 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af15f7d2-f3cf-4371-8dcb-1ac122bf769b")
+	)
+	(wire
+		(pts
+			(xy 80.01 99.06) (xy 105.41 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afac69c0-efc7-4dee-aa00-83a6fc34f202")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b52da4d2-6280-4da4-957f-4e84be8bfd22")
+	)
+	(wire
+		(pts
+			(xy 135.89 106.68) (xy 135.89 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b698894e-b54d-4269-8b2a-657cb55be08a")
+	)
+	(wire
+		(pts
+			(xy 105.41 99.06) (xy 129.54 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb431c95-a178-4eb7-b818-83d7604ea891")
+	)
+	(wire
+		(pts
+			(xy 154.94 81.28) (xy 129.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c09482aa-2cef-4ab3-8087-9d0c9e4ff3ee")
+	)
+	(wire
+		(pts
+			(xy 153.67 115.57) (xy 153.67 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0c8257b-e9f1-45c2-b88c-901be336f296")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 110.49 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c35f2dca-8415-4a1d-953c-78409c11e347")
+	)
+	(wire
+		(pts
+			(xy 129.54 99.06) (xy 154.94 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca808e0d-5d61-4ecb-91f0-7616684f1782")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 114.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd612068-e19f-4950-802b-c483404f16be")
+	)
+	(wire
+		(pts
+			(xy 110.49 90.17) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf84a132-f58e-4ffd-b5bd-3a352fb19de0")
+	)
+	(wire
+		(pts
+			(xy 104.14 133.35) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfab1119-da08-4eae-9d95-29dcf6774256")
+	)
+	(wire
+		(pts
+			(xy 113.03 57.15) (xy 113.03 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d051073d-69c8-4b64-8654-0d7c91ec0f77")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6204130-b65a-48fe-b497-2ddd646f3bf1")
+	)
+	(wire
+		(pts
+			(xy 104.14 115.57) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c4c6b8-a20c-46df-9635-09f935445bb1")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 110.49 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db53b7df-49a2-4fe6-8283-a963c60bb26e")
+	)
+	(polyline
+		(pts
+			(xy 213.36 49.53) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de7809a5-e1c9-49ee-bb86-03e87dd55631")
+	)
+	(wire
+		(pts
+			(xy 135.89 63.5) (xy 135.89 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08b7290-7b5f-4b6d-966b-1c89a308dd8d")
+	)
+	(wire
+		(pts
+			(xy 105.41 63.5) (xy 135.89 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e33c7162-34d9-4c50-aee6-0a3499e14711")
+	)
+	(wire
+		(pts
+			(xy 110.49 124.46) (xy 113.03 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5f062e4-f794-48ff-9f3e-13229daa3a73")
+	)
+	(wire
+		(pts
+			(xy 78.74 133.35) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c16245-ad11-4b5b-b331-8633520e3ecf")
+	)
+	(wire
+		(pts
+			(xy 107.95 57.15) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9ccdaf4-4a77-4df3-9220-cb9f7a4927ae")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 86.36 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb3ce86a-300a-42b1-9f4c-589551135da6")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 128.27 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eba3d4bd-c292-44f6-9761-ab2936cbe384")
+	)
+	(wire
+		(pts
+			(xy 135.89 90.17) (xy 135.89 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebefb678-e4b3-41fb-aac4-05e8c8764cea")
+	)
+	(wire
+		(pts
+			(xy 165.1 85.09) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef0710ae-9e1e-4956-a027-e44344d5bc62")
+	)
+	(wire
+		(pts
+			(xy 118.11 58.42) (xy 172.72 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "effc3f1b-af8b-42cf-925f-ac628c17ec26")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 129.54 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f032b951-7b73-4449-9dcb-fcdb743753db")
+	)
+	(wire
+		(pts
+			(xy 129.54 81.28) (xy 105.41 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f52183ee-53ae-4a62-b20a-b7bc84c38830")
+	)
+	(wire
+		(pts
+			(xy 170.18 60.96) (xy 170.18 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6ec8de7-4d7f-4157-a882-9dd4451ddeec")
+	)
+	(polyline
+		(pts
+			(xy 181.61 140.97) (xy 50.8 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f78d2859-b908-45c6-94ee-20ef8a8a0455")
+	)
+	(wire
+		(pts
+			(xy 80.01 81.28) (xy 80.01 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe26bddf-e5cb-46d8-94b3-327646725bbc")
+	)
+	(wire
+		(pts
+			(xy 100.33 57.15) (xy 100.33 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe68fbe8-85ae-489f-a9bc-a5fb00ff5df6")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 107.95 52.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1b82f081-d4e7-4604-a4ee-a568c2819a44")
+		(property "Reference" "J1"
+			(at 97.536 50.8 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x08"
+			(at 112.522 49.276 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical"
+			(at 107.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 107.95 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6092d03c-69f4-4837-8b5e-d44d557ed206")
+		)
+		(pin "8"
+			(uuid "33b5dae7-edda-4580-8038-3ae8388aba05")
+		)
+		(pin "4"
+			(uuid "fe66706b-5c52-4efc-a796-ee8d0b06a776")
+		)
+		(pin "1"
+			(uuid "5f8e9cc5-16d1-41c1-bb1b-d3b51d783ec6")
+		)
+		(pin "3"
+			(uuid "859d7013-ce8a-4a40-b487-5ac90813fa45")
+		)
+		(pin "6"
+			(uuid "a58291bb-faa2-4918-8e22-f40f9942ad93")
+		)
+		(pin "7"
+			(uuid "58f035c1-b87c-4d8a-83ac-c58afab6e87b")
+		)
+		(pin "5"
+			(uuid "a0515066-79d7-436a-a45a-59bb3657b0ef")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 129.54 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26ec3e66-5ef9-4929-8ea4-bce6b34fae82")
+		(property "Reference" "S14"
+			(at 121.92 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 121.92 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 116.84 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 116.84 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 129.54 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 116.84 486.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 116.84 586.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 116.84 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 116.84 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 116.84 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "e262663a-ff98-48dc-989d-dd62bbe10567")
+		)
+		(pin "3"
+			(uuid "abd989cc-c00f-4b59-98d3-0f4769a973e9")
+		)
+		(pin "2"
+			(uuid "6e89f547-413a-4794-9185-f555490bd1a0")
+		)
+		(pin "1"
+			(uuid "008168be-2e7b-44ea-867c-13476c1fffc9")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 128.27 124.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "272cafe5-413d-49ba-8c5b-804279016ffc")
+		(property "Reference" "S16"
+			(at 120.65 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 120.65 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 115.57 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 115.57 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 128.27 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 115.57 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 115.57 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 115.57 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 115.57 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 115.57 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "70a37044-24a7-424b-b922-bccaf1573416")
+		)
+		(pin "3"
+			(uuid "e1e8221c-c2e9-42e0-93ef-fc7717ae25c5")
+		)
+		(pin "2"
+			(uuid "0a9aba43-9183-4dfa-b8f4-a778b1b379f1")
+		)
+		(pin "1"
+			(uuid "a5160ea4-ffa5-4546-beee-19adcefbc104")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.25 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb865fb-3d11-48e3-9d20-53185f439d5c")
+		(property "Reference" "H1"
+			(at 224.79 53.3399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 224.79 55.8799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 222.25 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 153.67 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "308de6ba-d3e4-4b48-8968-54b7c89d3c89")
+		(property "Reference" "S11"
+			(at 146.05 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 146.05 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 140.97 202.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 140.97 302.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 153.67 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 140.97 502.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 140.97 602.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 140.97 702.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 140.97 802.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 140.97 902.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "e532a171-ce41-4334-bc37-22e6238c7571")
+		)
+		(pin "3"
+			(uuid "681937fd-671f-4031-a6d6-58c7a4e0def7")
+		)
+		(pin "2"
+			(uuid "d34028a2-1435-4c4f-b522-1106f180fc92")
+		)
+		(pin "1"
+			(uuid "06294857-06eb-4a87-9596-0230ce7dffd4")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 153.67 124.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "354606a5-63ba-4ffc-b1b9-1f0c15b3bf15")
+		(property "Reference" "S12"
+			(at 146.05 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 146.05 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 140.97 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 140.97 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 153.67 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 140.97 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 140.97 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 140.97 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 140.97 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 140.97 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "a4b1ba10-a134-47ce-887a-4aa68cb7bc85")
+		)
+		(pin "3"
+			(uuid "93729bbb-95e9-47e6-b6cc-76047cf19955")
+		)
+		(pin "2"
+			(uuid "def52394-cc55-4d07-819a-cfe763b60e64")
+		)
+		(pin "1"
+			(uuid "67b82863-63d7-458f-9e2c-c551fcc7fe4d")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 154.94 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3869f002-349f-4748-be53-f9966f7c3771")
+		(property "Reference" "S4"
+			(at 147.32 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 147.32 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 142.24 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 142.24 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 154.94 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 142.24 468.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 142.24 568.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 142.24 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 142.24 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 142.24 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "22758408-da46-42e5-9647-6e1c68c8256b")
+		)
+		(pin "3"
+			(uuid "5ae79b77-053c-4a4e-aea9-652be7503235")
+		)
+		(pin "2"
+			(uuid "abe50b0d-188f-459a-908d-9e85d42b7bed")
+		)
+		(pin "1"
+			(uuid "bf535609-be7e-4fd2-a2ab-0562204fee49")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 128.27 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45d46cf6-6f31-45fe-a835-a1679a59090f")
+		(property "Reference" "S15"
+			(at 120.65 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 120.65 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 115.57 202.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 115.57 302.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 128.27 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 115.57 502.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 115.57 602.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 115.57 702.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 115.57 802.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 115.57 902.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "0d1d963d-978a-47a4-a4d4-1bd57596ae07")
+		)
+		(pin "3"
+			(uuid "8614863e-230e-4436-be75-0e18010d77a9")
+		)
+		(pin "2"
+			(uuid "2110c132-278a-4c4c-a869-ada69eebb58e")
+		)
+		(pin "1"
+			(uuid "d42ef298-6332-4600-a04a-0662927c8a79")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 105.41 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "78f2f2dc-a28f-4d21-9f3d-90c51207f8a1")
+		(property "Reference" "S2"
+			(at 97.79 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 97.79 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 92.71 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 92.71 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 105.41 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 92.71 468.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 92.71 568.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 92.71 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 92.71 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 92.71 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "fbb227ed-4100-48be-82e9-24df643540e4")
+		)
+		(pin "3"
+			(uuid "4f99f914-5451-46c1-b696-0f34ee37c251")
+		)
+		(pin "2"
+			(uuid "5ad1ecb7-8d43-4515-94dd-7694c5679937")
+		)
+		(pin "1"
+			(uuid "dbfa9ed8-ff22-403c-a0d5-0ec5a5a86d52")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 104.14 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8678dc4c-5f3a-4c38-88a8-c914171c6993")
+		(property "Reference" "S7"
+			(at 96.52 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 96.52 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 91.44 202.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 91.44 302.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 104.14 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 91.44 502.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 91.44 602.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 91.44 702.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 91.44 802.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 91.44 902.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "fb544a43-b9f0-4218-acb9-2b1ecf4ede40")
+		)
+		(pin "3"
+			(uuid "8fc3148e-fa7e-4725-b78f-c2b6479d3f7d")
+		)
+		(pin "2"
+			(uuid "78c4749c-c655-4b0a-a2fa-40607f6782e9")
+		)
+		(pin "1"
+			(uuid "f859e8c3-7bec-464d-b511-a0e9dd64f157")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.25 81.28 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9aafe29c-e7c7-4455-9067-2da4436b7cb0")
+		(property "Reference" "H4"
+			(at 224.79 80.0099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 224.79 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 222.25 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 222.25 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 105.41 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9c66fbae-f3db-45a2-9531-871353225f31")
+		(property "Reference" "S6"
+			(at 97.79 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 97.79 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 92.71 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 92.71 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 105.41 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 92.71 486.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 92.71 586.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 92.71 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 92.71 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 92.71 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "2485b972-3af2-49a4-994d-531e7dff76b3")
+		)
+		(pin "3"
+			(uuid "a653553b-287b-4c8b-97f9-5bf988b3cd85")
+		)
+		(pin "2"
+			(uuid "80d27dfa-d6c4-448e-88a4-80cf86a9f6de")
+		)
+		(pin "1"
+			(uuid "09d3d0ba-c8f3-4663-8d01-cb05854fdff5")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 78.74 124.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a9ad6a49-fe24-4c4d-8beb-778162a3732c")
+		(property "Reference" "S4"
+			(at 71.12 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 71.12 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 66.04 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 66.04 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 78.74 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 66.04 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 66.04 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 66.04 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 66.04 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 66.04 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "0ee96fbf-b60d-44d5-90d2-08c5647a4e12")
+		)
+		(pin "3"
+			(uuid "fcd5dea6-60fa-46a9-ba37-538d330b3dd6")
+		)
+		(pin "2"
+			(uuid "fb1c872c-978e-4f2e-a052-28828bd26034")
+		)
+		(pin "1"
+			(uuid "46d5e4d9-1a9e-42f3-ab37-842897c23e25")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.25 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf12829e-941e-4e7e-a6ef-e040027f5273")
+		(property "Reference" "H3"
+			(at 224.79 72.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 224.79 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 222.25 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 80.01 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7cc63b2-f226-4644-a0ef-d4b7aba4f5e4")
+		(property "Reference" "S2"
+			(at 72.39 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 72.39 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 67.31 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 67.31 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 80.01 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 67.31 486.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 67.31 586.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 67.31 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 67.31 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 67.31 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "66467044-fe00-43b1-b2c1-f6d14f62585d")
+		)
+		(pin "3"
+			(uuid "eaf3f3f6-1b06-48c4-9233-033be107311a")
+		)
+		(pin "2"
+			(uuid "98d631a7-3dfa-47ac-940c-1206dedc0b49")
+		)
+		(pin "1"
+			(uuid "34522b99-6c5e-4398-8ec7-4b8786ea3e61")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 129.54 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cac95a1e-108d-4306-a55a-63f73e72e265")
+		(property "Reference" "S3"
+			(at 121.92 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 121.92 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 116.84 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 116.84 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 129.54 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 116.84 468.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 116.84 568.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 116.84 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 116.84 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 116.84 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "58051460-bce1-4896-b223-714a5d2e5ea3")
+		)
+		(pin "3"
+			(uuid "dcc81871-03cb-4850-833b-e9ee343327cd")
+		)
+		(pin "2"
+			(uuid "dfcbecc2-d89a-43c9-965c-dd0e13c65aa9")
+		)
+		(pin "1"
+			(uuid "863f43bc-af84-42dd-8aa5-d1a47e4d51f5")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 78.74 106.68 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce469f3b-a990-4d63-88ea-dff904fa9a51")
+		(property "Reference" "S3"
+			(at 71.12 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 71.12 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 66.04 202.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 66.04 302.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 78.74 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 66.04 502.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 66.04 602.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 66.04 702.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 66.04 802.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 66.04 902.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "d0bc57c1-5c3f-4239-9071-cd4a51f092ba")
+		)
+		(pin "3"
+			(uuid "fe0706c8-f0c1-4917-a9f3-d9ae8c7515a4")
+		)
+		(pin "2"
+			(uuid "d717f9e3-abe0-4e6d-9ce5-e0b240f5bf94")
+		)
+		(pin "1"
+			(uuid "376f9374-7114-4ac9-bde3-a6d19d5aa5f9")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 222.25 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d2493808-4926-4453-bb20-ba4f42c264a6")
+		(property "Reference" "H2"
+			(at 224.79 62.2299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 224.79 64.7699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 222.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 222.25 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 104.14 124.46 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d546e5b8-93e9-43b2-956f-5b53878f1d1f")
+		(property "Reference" "S8"
+			(at 96.52 119.38 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 96.52 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 91.44 220.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 91.44 320.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 104.14 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 91.44 520.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 91.44 620.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 91.44 720.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 91.44 820.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 91.44 920.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "af226a29-fa3c-4d75-a4da-cc42588d9f6a")
+		)
+		(pin "3"
+			(uuid "c9eb5320-2004-4924-84f4-6fda3ad3c52d")
+		)
+		(pin "2"
+			(uuid "550a1636-706e-4e2b-b1c7-0416829759a4")
+		)
+		(pin "1"
+			(uuid "e449c9d7-7f43-4f5e-a33f-da6ae5c96a8f")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 80.01 72.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8469a80-4612-4523-b7df-f6845cc44640")
+		(property "Reference" "S1"
+			(at 72.39 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 72.39 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 67.31 168.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 67.31 268.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 80.01 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 67.31 468.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 67.31 568.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 67.31 668.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 67.31 768.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 67.31 868.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "e3583c0e-9c81-4bd0-a9c8-d487deadcd4f")
+		)
+		(pin "3"
+			(uuid "957e8428-bf3e-49fa-84dd-a370024cc148")
+		)
+		(pin "2"
+			(uuid "87e009fc-a145-4da9-9db1-d7be50a986f7")
+		)
+		(pin "1"
+			(uuid "917d105f-6a26-4792-94fb-d9f17681fdd7")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "KSC1131J:KSC1131J_LFS")
+		(at 154.94 90.17 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa4b5baf-a448-4422-8336-c9636429e563")
+		(property "Reference" "S10"
+			(at 147.32 85.09 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KSC1131J"
+			(at 147.32 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "KSC1131J:KSC1131JLFS"
+			(at 142.24 186.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf"
+			(at 142.24 286.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator"
+			(at 154.94 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "4.1"
+			(at 142.24 486.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Part Number" ""
+			(at 142.24 586.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Farnell Price/Stock" ""
+			(at 142.24 686.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at 142.24 786.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "KSC1131J LFS"
+			(at 142.24 886.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "18c362ad-327b-4c6b-906f-1be2cb615146")
+		)
+		(pin "3"
+			(uuid "ffefb6e4-6a14-4258-b209-26c5a8b1d7fa")
+		)
+		(pin "2"
+			(uuid "eb53c3a1-1c46-496f-95dd-c07957648bca")
+		)
+		(pin "1"
+			(uuid "5addbec0-ceb8-4852-a993-edd6fa1835da")
+		)
+		(instances
+			(project "keypad4x4"
+				(path "/11f141ce-ffd8-41c5-ba3c-d9b662d81ab6"
+					(reference "S10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

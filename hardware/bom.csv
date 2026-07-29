@@ -1,0 +1,4 @@
+Reference,Quantity,Component,Description,Footprint
+S1-S16,16,KSC1131J,SMD tactile push-button switch,KSC1131JLFS
+J1,1,Conn_01x08,8-pin single-row male header (matrix connection),Conn_01x08_Pitch2.54mm
+H1-H4,4,Mounting Hole,Corner mounting holes,MountingHole

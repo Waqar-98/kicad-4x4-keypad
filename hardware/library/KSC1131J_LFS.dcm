@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP KSC1131J_LFS
+D Sealed Tactile Switch for SMT 6.2 x 6.2 mm, with 3.9 mm Height Hard Actuator
+K
+F https://www.ckswitches.com/media/3598/ck_ksc11_datasheet.pdf
+$ENDCMP
+#
+#End Doc Library
